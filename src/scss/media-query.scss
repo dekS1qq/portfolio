@@ -1,0 +1,76 @@
+@import "variables";
+@import "topography";
+
+@media (max-width: 1024px) {
+  .hero {
+    .content {
+      p:first-child {
+        font-size: 20px;
+      }
+
+      h2 {
+        font-size: 56px;
+      }
+
+      p:last-child {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+@media (max-width: 968px) {
+  .hero {
+    .content {
+      h2 {
+        font-size: 42px;
+      }
+    }
+  }
+}
+
+@media (max-width: 680px) {
+  .hero {
+    nav {
+      ul {
+        position: absolute;
+        width: 100vw;
+        top: -100vh;
+        background: #2c2c2c;
+        z-index: 5;
+        transition: all 0.4s;
+
+        li {
+          width: 100%;
+          text-align: center;
+          margin: 5px 0;
+        }
+      }
+
+      .menu-button {
+        i {
+          display: block;
+          z-index: 10;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 540px) {
+  .hero {
+    .content {
+      p:first-child {
+        font-size: 16px;
+      }
+
+      h2 {
+        font-size: 28px;
+      }
+
+      p:last-child {
+        font-size: 14px;
+      }
+    }
+  }
+}
